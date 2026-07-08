@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+hcp-crm-vite/node_modules/
+hcp-crm-frontend/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+hcp-crm-backend/venv/
+
+# Environment variables
+.env
+hcp-crm-backend/.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+hcp-crm-vite/dist/
+hcp-crm-frontend/build/
+
+# Exclude everything outside project
+../
+Documents/
+Pictures/
+Videos/
+Desktop/
+*.lnk
+*.tmp
+*.unknow
+~$*

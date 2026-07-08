@@ -1,0 +1,304 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  background: #f5f6f7;
+  margin: 0;
+  padding: 24px;
+  color: #1f2328;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.panel {
+  background: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  width: 413px;
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #24292f;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 13px;
+  color: #1f2328;
+  background: #fff;
+  width: 100%;
+  font-family: inherit;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #8b949e;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.textarea-wrap {
+  position: relative;
+}
+
+.textarea-wrap .icon {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  font-size: 14px;
+  color: #6e7781;
+}
+
+.btn {
+  border: 1px solid #d0d7de;
+  background: #f6f8fa;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #1f2328;
+}
+
+.btn:hover {
+  background: #eaecef;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.muted {
+  font-size: 12px;
+  color: #6e7781;
+  font-style: italic;
+  margin: 4px 0 14px 0;
+}
+
+.voice-btn {
+  margin: 8px 0 18px 0;
+  width: fit-content;
+}
+
+.subfield-label {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.sentiment {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 14px;
+}
+
+.sentiment label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 0;
+}
+
+.suggested {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.suggested p {
+  font-weight: 500;
+  margin: 0 0 6px 0;
+}
+
+.suggested ul {
+  margin: 0;
+  padding-left: 4px;
+  list-style: none;
+}
+
+.suggested li {
+  margin-bottom: 4px;
+}
+
+.suggested a {
+  color: #0969da;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.suggested a:hover {
+  text-decoration: underline;
+}
+
+/* right panel */
+.assistant-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 16px;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.assistant-header .dot {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.assistant-header .titles div:first-child {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.assistant-header .titles div:last-child {
+  font-size: 11px;
+  color: #6e7781;
+}
+
+.chat-body {
+  flex: 1;
+  padding: 14px 16px;
+  overflow-y: auto;
+  font-size: 13px;
+  color: #6e7781;
+}
+
+.chat-input-row {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  border-top: 1px solid #e1e4e8;
+}
+
+.chat-input-row input {
+  flex: 1;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.log-btn {
+  background: #4a4a4a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.log-btn:hover {
+  background: #333;
+}
+
+.log-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.chat-message {
+  margin-bottom: 12px;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.chat-message.user {
+  background: #f6f8fa;
+  text-align: right;
+  color: #1f2328;
+}
+
+.chat-message.ai {
+  background: #e6f3ff;
+  color: #1f2328;
+}
+
+.loading {
+  color: #6e7781;
+  font-style: italic;
+}
+
+.error {
+  color: #d1242f;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.success {
+  color: #2ea043;
+  font-size: 12px;
+  margin-top: 4px;
+}
