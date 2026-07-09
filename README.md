@@ -74,8 +74,6 @@ An AI-first Customer Relationship Management (CRM) system built for pharmaceutic
 
 </details>
 
-> ⚠️ **Security note:** the original screenshot set included a capture of the `.env` file showing a real database password and Groq API key. It has been intentionally left out of this README. If it's still attached anywhere in the repo or PR history, delete it and rotate both credentials.
-
 ---
 
 ## 1. Problem This Solves
