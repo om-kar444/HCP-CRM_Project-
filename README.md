@@ -7,6 +7,26 @@ An AI-first Customer Relationship Management (CRM) system built for pharmaceutic
 <img width="1912" height="921" alt="Screenshot 2026-07-09 161052 - Copy" src="https://github.com/user-attachments/assets/b2af7e55-74a7-4668-a0b2-bc70a816070c" />
 <img width="1912" height="921" alt="Screenshot 2026-07-09 161052" src="https://github.com/user-attachments/assets/d347317a-b2be-422b-b071-f203b5604e99" />
 <img width="446" height="641" alt="Screenshot 2026-07-09 161122" src="https://github.com/user-attachments/assets/f2e324c0-068d-4bf3-baa4-4d39950ca3f2" />
+<img width="1886" height="903" alt="Screenshot 2026-07-09 161136 - Copy" src="https://github.com/user-attachments/assets/72555add-4e67-4239-a797-be83f540c22d" />
+<img width="1886" height="903" alt="Screenshot 2026-07-09 161136" src="https://github.com/user-attachments/assets/94834083-3bd7-45bc-850f-f4c769002e7e" />
+<img width="537" height="136" alt="Screenshot 2026-07-09 161145" src="https://github.com/user-attachments/assets/0bfcd8a1-b4a9-48ee-8a1d-9528d8e3d317" />
+<img width="426" height="490" alt="Screenshot 2026-07-09 161209" src="https://github.com/user-attachments/assets/19476438-5354-4821-94e1-ab363b93052d" />
+<img width="1852" height="892" alt="Screenshot 2026-07-09 161347" src="https://github.com/user-attachments/assets/282bb47c-3562-4c5c-8a29-de2499317ee3" />
+<img width="853" height="307" alt="Screenshot 2026-07-09 161426" src="https://github.com/user-attachments/assets/ff32e85e-df47-41f0-9fc5-b5150def0b6d" />
+<img width="907" height="317" alt="Screenshot 2026-07-09 161537 - Copy" src="https://github.com/user-attachments/assets/5bc7e949-dae5-4d69-8181-39859de94992" />
+<img width="987" height="215" alt="Screenshot 2026-07-09 161550 - Copy" src="https://github.com/user-attachments/assets/7ccaf8db-0e22-4a1c-9134-95c34a202831" />
+<img width="1908" height="672" alt="Screenshot 2026-07-09 161608 - Copy" src="https://github.com/user-attachments/assets/3a355df3-02fc-461b-bd86-0537ea5d7744" />
+<img width="1917" height="648" alt="Screenshot 2026-07-09 161630" src="https://github.com/user-attachments/assets/c22ab11c-2ae6-4a46-adb4-cbdbb5abeeab" />
+
+
+
+
+
+
+
+
+
+
 
 
 
